@@ -1,0 +1,13 @@
+def welcomeHtml(user):
+    s = ''
+    s += '<!DOCTYPE html>'
+    s += '<html>'
+    s += '  <head>'
+    s += '    <title>My Useful Links</title>'
+    s += '    <meta charset='utf-8">'
+    s += '  </head>'
+    s += '  <body>'
+    s += '   <h1>name: ' + user.get('name') + '</h1>'
+    s += '   <h2>likes: ' + str(user.get('likes')) + '</h2>'
+    s += '  <body>'
+    s += ''
