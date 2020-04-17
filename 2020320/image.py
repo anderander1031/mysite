@@ -1,7 +1,7 @@
   
 from jinja2 import Template
 def getHTML():
-    with open('images.html') as f:
+    with open('myImages.html') as f:
         s = f.read()
     return s
 def main():
